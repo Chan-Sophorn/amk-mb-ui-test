@@ -1,0 +1,41 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "flutterframework",
+          "kind" : "fileSystem",
+          "location" : "/Users/chansophorn/Desktop/development/FlutterProject/amk-mb-ui-test/ios/Flutter/ephemeral/Packages/.packages/FlutterFramework",
+          "name" : "FlutterFramework"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/chansophorn/Desktop/development/FlutterProject/amk-mb-ui-test/ios/Flutter/ephemeral/Packages/.packages/FlutterFramework"
+        },
+        "subpath" : "flutterframework"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "package_info_plus-9.0.1",
+          "kind" : "fileSystem",
+          "location" : "/Users/chansophorn/Desktop/development/FlutterProject/amk-mb-ui-test/ios/Flutter/ephemeral/Packages/.packages/package_info_plus-9.0.1",
+          "name" : "package_info_plus"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/chansophorn/Desktop/development/FlutterProject/amk-mb-ui-test/ios/Flutter/ephemeral/Packages/.packages/package_info_plus-9.0.1"
+        },
+        "subpath" : "package_info_plus-9.0.1"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

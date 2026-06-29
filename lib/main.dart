@@ -2,6 +2,7 @@ import 'package:amk_mobile/app/routes/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:intl/date_symbol_data_local.dart';
 import 'app/localization/app_translation.dart';
 import 'app/localization/locale_controller.dart';
 import 'app/theme/app_theme.dart';
@@ -10,6 +11,7 @@ import 'app/theme/app_theme.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await GetStorage.init();
+  await initializeDateFormatting();
 
   // 🔹 Load saved language BEFORE runApp
   final localeController = Get.put(LocaleController(), permanent: true);

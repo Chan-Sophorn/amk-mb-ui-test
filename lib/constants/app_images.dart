@@ -9,5 +9,6 @@ class AppImages {
   static const flagChinese = "assets/images/flag_chinese.png";
   static const circleRadius = "assets/images/circle_radius.svg";
   static const icPhone = "assets/images/ic_phone_white.svg";
+  static const cat = "assets/images/cat.jpeg";
 
 }

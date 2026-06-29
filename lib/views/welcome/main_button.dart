@@ -1,16 +1,19 @@
+import 'package:amk_mobile/constants/app_color.dart';
 import 'package:flutter/material.dart';
 
-class PrimaryButton extends StatelessWidget {
+class MainButton extends StatelessWidget {
+  final double? width;
   final String title;
-  final Color color;
-  final Color textColor = Colors.white;
+  final Color? textColor;
+  final Color? backgroundColor;
   final VoidCallback onTap;
 
-  const PrimaryButton({
+  const MainButton({
     super.key,
+    this.width,
     required this.title,
-    required this.color,
-    textColor,
+    this.textColor,
+    this.backgroundColor,
     required this.onTap,
   });
 
@@ -19,17 +22,18 @@ class PrimaryButton extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        width: double.infinity,
+        width: width ?? double.infinity,
+        height: 50,
         padding: const EdgeInsets.symmetric(vertical: 10),
         decoration: BoxDecoration(
-          color: color,
+          color: backgroundColor ?? AppColor.mainColor,
           borderRadius: BorderRadius.circular(12),
         ),
         child: Center(
           child: Text(
             title,
-            style: const TextStyle(
-              color: Colors.white,
+            style: TextStyle(
+              color: textColor ?? Colors.white,
               fontWeight: FontWeight.bold,
               fontSize: 18,
             ),

@@ -3,7 +3,7 @@ import 'package:amk_mobile/constants/app_images.dart';
 import 'package:amk_mobile/models/country.dart';
 import 'package:amk_mobile/services/controller/country_controller.dart';
 import 'package:amk_mobile/services/controller/sign_in_controller.dart';
-import 'package:amk_mobile/views/welcome/primary_button.dart';
+import 'package:amk_mobile/views/welcome/main_button.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -127,7 +127,7 @@ class SignInView extends StatelessWidget {
                                       vertical: 12,
                                     ),
                                     labelStyle: const TextStyle(
-                                      color: Colors.grey
+                                      color: Colors.grey,
                                     ),
                                     enabledBorder: OutlineInputBorder(
                                       borderRadius: BorderRadius.circular(20),
@@ -227,9 +227,9 @@ class SignInView extends StatelessWidget {
                     top: false,
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(15, 8, 15, 15),
-                      child: PrimaryButton(
+                      child: MainButton(
                         title: 'continue_btn'.tr,
-                        color: AppColor.mainColor,
+                        backgroundColor: AppColor.mainColor,
                         onTap: signInController.continueSignIn,
                       ),
                     ),

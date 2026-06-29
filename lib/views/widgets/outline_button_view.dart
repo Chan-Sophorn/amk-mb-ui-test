@@ -16,12 +16,18 @@ class OutlineButtonView extends StatelessWidget {
       onTap: onTap,
       child: Container(
         width: double.infinity,
+        height: 50,
         padding: const EdgeInsets.symmetric(vertical: 12),
         decoration: BoxDecoration(
           border: Border.all(color: Colors.grey),
           borderRadius: BorderRadius.circular(12),
         ),
-        child: Center(child: Text(title, style: TextStyle(color: Color(0xFFA53C6F), fontSize: 18),)),
+        child: Center(
+          child: Text(
+            title,
+            style: TextStyle(color: Color(0xFFA53C6F), fontSize: 18),
+          ),
+        ),
       ),
     );
   }

@@ -1,10 +1,8 @@
 import 'package:get/get.dart';
 
 class AppTranslation extends Translations {
-
   @override
   Map<String, Map<String, String>> get keys => {
-
     'km_KH': {
       'login': 'ចូលប្រើប្រាស់',
       'signup': 'បង្កើតគណនីថ្មី',
@@ -16,10 +14,24 @@ class AppTranslation extends Translations {
       'about': 'អំពីយើង',
       'input_phone_number': 'បញ្ចូលលេខទូរស័ព្ទ',
       'phone_number': 'លេខទូរស័ព្ទ',
-      'phone_description': 'លេខទូរស័ព្ទរបស់អ្នកត្រូវតែចុះឈ្មោះជាមួយ អ.ម.ក ។ ក្នុងករណីពិបាក់ចូល ឬប្ដូរលេខទូរស័ព្ទ សូមទំនាក់ទំនងសាខា អ.ម.ក ដែលនៅជិតអ្នកបំផុតដើម្បីធ្វើបច្ចុប្បន្នភាពព័ត៌មានផ្ទាល់ខ្លួនអ្នក។',
+      'phone_description':
+          'លេខទូរស័ព្ទរបស់អ្នកត្រូវតែចុះឈ្មោះជាមួយ អ.ម.ក ។ ក្នុងករណីពិបាក់ចូល ឬប្ដូរលេខទូរស័ព្ទ សូមទំនាក់ទំនងសាខា អ.ម.ក ដែលនៅជិតអ្នកបំផុតដើម្បីធ្វើបច្ចុប្បន្នភាពព័ត៌មានផ្ទាល់ខ្លួនអ្នក។',
       'pin_6_digit': 'លេខសម្ងាត់ 6 ខ្ទង់',
       'forgot_pin': 'ភ្លេចលេខសម្ងាត់',
       'continue_btn': 'បន្ត',
+      'good_morning': 'អរុណសួស្តី',
+      'good_afternoon': 'ទិវាសួស្ដី',
+      'good_evening': 'សាយ័ណ្ហសួស្ដី',
+      'home': 'ទំព័រដើម',
+      'cards': 'កាត',
+      'chat': 'ឆាត',
+      'others': 'ផ្សេងៗ',
+      'read_more': 'អានទាំងអស់',
+      'read_less': 'អានតិច',
+      'notification': 'ការជូនដំណឹង',
+      'important': 'ព័ត៌មានសំខាន់ៗ',
+      'transaction': 'ប្រតិបត្តិការ',
+      'news': 'ព័ត៌មាន',
     },
 
     'en_US': {
@@ -33,10 +45,24 @@ class AppTranslation extends Translations {
       'about': 'About Me',
       'input_phone_number': 'Phone number',
       'phone_number': 'Phone Number',
-      'phone_description': 'Your phone number must be registered with AMK. If you have trouble logging in or changing your phone number, please contact the nearest AMK branch to update your personal information.',
+      'phone_description':
+          'Your phone number must be registered with AMK. If you have trouble logging in or changing your phone number, please contact the nearest AMK branch to update your personal information.',
       'pin_6_digit': '6-Digit PIN',
       'forgot_pin': 'Forgot PIN?',
       'continue_btn': 'Continue',
+      'good_morning': 'Good Morning',
+      'good_afternoon': 'Good Afternoon',
+      'good_evening': 'Good Evening',
+      'home': 'Home',
+      'cards': 'Cards',
+      'chat': 'Chat',
+      'others': 'Others',
+      'read_more': 'Read more',
+      'read_less': 'Read less',
+      'notification': 'Notification',
+      'important': 'Important',
+      'transaction': 'Transaction',
+      'news': 'News',
     },
 
     'zh_CN': {
@@ -50,11 +76,24 @@ class AppTranslation extends Translations {
       'about': '关于我们',
       'input_phone_number': 'បញ្ចូលលេខទូរស័ព្ទ',
       'phone_number': '电话号码',
-      'phone_description': '您的手机号码必须在AMK注册。如果您在登录或更改手机号码时遇到问题，请联系最近的AMK分行更新您的个人信息。',
+      'phone_description':
+          '您的手机号码必须在AMK注册。如果您在登录或更改手机号码时遇到问题，请联系最近的AMK分行更新您的个人信息。',
       'pin_6_digit': '6位PIN码',
       'forgot_pin': '忘记PIN码？',
       'continue_btn': '继续',
-    }
-
+      'good_morning': '早上好',
+      'good_afternoon': '下午好',
+      'good_evening': '晚上好',
+      'home': 'Home',
+      'cards': 'Cards',
+      'chat': 'Chat',
+      'others': 'Others',
+      'read_more': 'Read more',
+      'read_less': 'Read less',
+      'notification': 'Notification',
+      'important': 'Important',
+      'transaction': 'Transaction',
+      'news': 'News',
+    },
   };
 }

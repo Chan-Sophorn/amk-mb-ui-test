@@ -3,7 +3,7 @@ import 'package:amk_mobile/views/welcome/language_selector.dart';
 import 'package:flutter/material.dart';
 
 class HeaderView extends StatelessWidget {
-  const HeaderView();
+  const HeaderView({super.key});
 
   @override
   Widget build(BuildContext context) {

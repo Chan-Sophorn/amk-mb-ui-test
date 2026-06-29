@@ -2,7 +2,7 @@ import 'package:amk_mobile/constants/app_images.dart';
 import 'package:amk_mobile/services/controller/app_controller.dart';
 import 'package:amk_mobile/views/welcome/bottom_menu.dart';
 import 'package:amk_mobile/views/welcome/header_view.dart';
-import 'package:amk_mobile/views/welcome/main_card.dart';
+import 'package:amk_mobile/views/widgets/main_card.dart';
 import 'package:amk_mobile/views/widgets/background_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

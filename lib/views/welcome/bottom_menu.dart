@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class BottomMenu extends StatelessWidget {
-  const BottomMenu();
+  const BottomMenu({super.key});
 
   @override
   Widget build(BuildContext context) {
